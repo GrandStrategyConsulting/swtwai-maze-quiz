@@ -47,6 +47,7 @@
   .btn:active{transform:scale(.98);}
   .btn.gradient{background:var(--gradient); box-shadow:0 4px 16px rgba(142,77,255,.28);}
   .btn.ghost{background:#fff; color:var(--muted); border:1.5px solid var(--grey); font-weight:500; box-shadow:none; margin-top:12px;}
+  .btn.outline{background:transparent; color:#fff; border:1.5px solid rgba(255,255,255,.45); font-weight:500; box-shadow:none; margin-top:10px;}
   .screen{display:none; animation:fade .35s ease;}
   .screen.on{display:block;}
   @keyframes fade{from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:none;}}
@@ -145,12 +146,13 @@
     <div class="book-cta">
       <p>The Maze is one chapter of <strong>Stop Wasting Time <span class="grad">With AI.</span></strong><br>A practical, emotionally intelligent method for using AI well — by Zena Collins.</p>
       <a class="btn gradient" id="book-link" href="https://a.co/d/0ctqdd2p" target="_blank" rel="noopener">Get the book</a>
+      <a class="btn outline" href="https://stopwastingtimewithai.com" target="_blank" rel="noopener">Explore the ecosystem</a>
     </div>
     <button class="btn ghost" onclick="restart()">Take it again</button>
   </section>
 
   <footer>
-    Stop Wasting Time With AI · Zena Collins · <a href="https://zenacollins.com" target="_blank" rel="noopener">zenacollins.com</a><br>
+    Stop Wasting Time With AI · Zena Collins · <a href="https://stopwastingtimewithai.com" target="_blank" rel="noopener">stopwastingtimewithai.com</a><br>
     Characters courtesy of <a href="https://feel-wise.com" target="_blank" rel="noopener">Feel-Wise.com</a>
   </footer>
 </div>
